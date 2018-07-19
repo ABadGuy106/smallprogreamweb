@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import java.beans.PropertyVetoException;
 @Configuration
 //配置mybatismapper的扫描路径
-@MapperScan("net.abadguy.smallprogreamweb")
+@MapperScan("net.abadguy.smallprogreamweb.dao")
 public class DataSourceConfiguration {
     @Value("${jdbc.driver}")
     private String jdbcDriver;
